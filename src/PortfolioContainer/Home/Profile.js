@@ -71,11 +71,11 @@ const Profile = () => {
                   </span>
                </div>
                <div className="profile-options">
-                   <button className='button-one'>
+                   <button className='btnn button-one'>
                        { " "}
                        Hire me
                    </button>
-                   <a href="https://drive.google.com/file/d/1mT7PtF1QWlqTWqHwARkIa41HWp5Cy6Or/view?usp=sharing"><button className='btn highlighted-btn'>Resume</button></a>
+                   <a href="https://drive.google.com/file/d/1mT7PtF1QWlqTWqHwARkIa41HWp5Cy6Or/view?usp=sharing"><button className='btn btnn highlighted-btn'>Resume</button></a>
                </div>
             </div>
             <div className='profile-picture'>
