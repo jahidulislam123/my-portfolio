@@ -1,0 +1,26 @@
+.text-edit {
+    color: rgb(228, 216, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 74px;
+    border: 1px solid rgb(11, 216, 103);
+    padding: 8px;
+    border-radius: 15px;
+
+
+}
+
+.text-edit:hover {
+    color: rgb(8, 0, 7);
+    background-color: cornsilk;
+
+
+}
+
+.head-line {
+    color: rgb(18, 204, 18);
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid cornsilk;
+    border-top: 2px solid cornsilk;
+}
