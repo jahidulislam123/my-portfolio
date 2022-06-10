@@ -4,9 +4,9 @@ import image from '../../assets/Home/images/jahid.png'
 
 const About = () => {
     return (
-        <section id='about'>
-            <h5>Get To Know</h5>
-            <h2>About Me</h2>
+        <section className='full-about-section' id='about'>
+            <h5 className='about-heading'>Get To Know</h5>
+            <h2 className='about-heading'>About Me</h2>
             <div className='container about_container'>
                 <div className='about_me'>
                     <div className="about_me-image">
@@ -40,8 +40,17 @@ const About = () => {
 
                         </article>
                     </div>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam error nihil ducimus minima quia commodi temporibus perspiciatis cum quis, rerum aliquam numquam nobis quas vel quaerat maiores voluptatum veniam? Suscipit.</p>
-                    <a href="" className='btn btn-primary'>Lets Talk</a>
+                    <p>I am a Full Stack web developer . i learned html , css , bootstrap , tailwind ,javascript ,
+                        react , react-router , firebase , nodejs, mongodb , expressjs, github, heroku, netlify etc .
+                        I hava a huge passion to start my professional life as a full Stack-web Developer . I always try to learn new new technologies.
+                        Number of projects i have done with html-css, bootstrap , tailwind , react, javascript ,mongodb,nodejs as well as with responsieness.
+                        Now i am highly confident and dedicated to work with a company and team based . if i get any
+                        opurtunity i will to explore myself as much as possible.......
+
+                    </p>
+                    <div className='button-a'>
+                        <a  href="" ><button className='highlighted-btnn'>Lets Talk</button></a>
+                        </div>
                 </div>
 
             </div>

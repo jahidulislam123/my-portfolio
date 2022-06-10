@@ -3,6 +3,19 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-columns: 35% 50%;
     gap: 15%;
+
+}
+
+.full-about-section {
+    background: #24263B;
+
+    padding-top: 12px;
+    padding-bottom: 34px;
+    border-radius: 8px;
+}
+
+.about-heading {
+    color: orangered
 }
 
 .about_me {
@@ -35,11 +48,14 @@
 }
 
 .about_card {
-    background: #040d66;
+    /* background: rgb(228, 124, 38); */
+    background: rgb(8, 128, 8);
     border: 1px solid transparent;
     border-radius: 1rem;
     text-align: center;
     color: white;
+    font-family: cursive;
+    font-weight: 500;
     padding: 8px;
 }
 
@@ -49,7 +65,7 @@
 }
 
 .about_card:hover {
-    background: transparent;
+    background: orangered;
     color: black;
     border-color: #040d66;
     transition: 0.5s ease-out;
@@ -58,17 +74,40 @@
 }
 
 .about_card h5 {
-    font-size: 0.95rem;
+    font-size: 1.00rem;
 }
 
 .about_card small {
     font-size: 0.7rem;
-    color: rgb(181, 204, 235);
+    color: white;
+}
+
+.highlighted-btnn {
+
+    color: wheat;
+    font-weight: 500;
+    background-color: orangered;
+    border-radius: 12px;
+    padding: 7px;
+
+
+}
+
+.button-a {
+    text-align: left;
+
+}
+
+.highlighted-btnn:hover {
+    background-color: cornsilk;
+    color: black;
+
 }
 
 .about_content p {
     margin: 2rem 0 2.6rem;
     text-align: left;
+    color: white;
 }
 
 @media screen and (max-width :1024px) {
@@ -93,7 +132,7 @@
 @media screen and (max-width: 600px) {
     .about_me {
         overflow-x: hidden !important;
-        margin-bottom: 7px;
+        margin-bottom: 15px;
 
 
 
