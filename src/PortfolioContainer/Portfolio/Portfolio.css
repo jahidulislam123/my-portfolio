@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5 rem;
 
+
 }
 
 .portfolio_full {
@@ -17,6 +18,8 @@
     transition: var(--transition);
     background-color: rgba(2, 1, 15, 0.808);
     margin: 4px;
+    width: 80%;
+
 }
 
 .portfolio_item:hover {
@@ -46,6 +49,9 @@
 @media screen and (max-width: 600px) {
     .portfolio_container {
         display: grid;
+
         grid-template-columns: repeat(1, 1fr)
     }
+
+
 }
