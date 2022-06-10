@@ -92,10 +92,16 @@
 
 @media screen and (max-width: 600px) {
     .about_me {
-        width: 70%;
-        margin: auto;
-        margin-top: 123px;
+        overflow-x: hidden !important;
+        margin-bottom: 7px;
 
+
+
+    }
+
+    .about_me-image {
+        width: 350px;
+        height: 350px;
     }
 
     .about_cards {
