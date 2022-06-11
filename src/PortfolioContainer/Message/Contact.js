@@ -53,7 +53,10 @@ const Contact = () => {
                     <div className='btn-message'>
                     <button className='btn-contact' type='submit'>Send Message</button>
                     </div>
-                    <div><hr /></div>
+                    <div className='address'>
+                    <h5>#Sector 13 #road12</h5>
+                    <h5>Dhaka Bangladesh</h5>
+                    </div>
                 </form>
                 
             </div>

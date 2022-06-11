@@ -85,7 +85,9 @@ textarea {
     color: white;
 
 } */
-
+.address {
+    color: white;
+}
 
 @media screen and (max-width:1024px) {
     .container_contact_container {
