@@ -53,6 +53,7 @@ const Contact = () => {
                     <div className='btn-message'>
                     <button className='btn-contact' type='submit'>Send Message</button>
                     </div>
+                    <div><hr /></div>
                 </form>
                 
             </div>
