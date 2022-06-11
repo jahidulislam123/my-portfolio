@@ -1,7 +1,26 @@
 import React from 'react';
-import './Contack.css'
+import './Contack.css';
+import  { useRef } from 'react';
+// import { emailjs } from '@emailjs/browser';
+// import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
+import {toast } from 'react-toastify';
 
 const Contact = () => {
+    const form =useRef()
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_dqblkbj', 'template_gargfi2', form.current, 'qhTf4_6KvXZY-GbNi')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          if(e){
+            toast("Yes message done")
+          }
+      };
     return (
         <section className='body-message' id='contact'>
             <h5>Get in Touch</h5>
@@ -27,12 +46,12 @@ const Contact = () => {
                         <a href="https://api.whatsapp.com/send?phone=01879756284" target="_blank">Send a Message</a>
                     </article>
                 </div>
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Full Name' required/>
                     <input type="text" name='email' placeholder='Your Email' required/>
                     <textarea name="message" rows="7" placeholder='Your Message ' required></textarea>
                     <div className='btn-message'>
-                    <button className='btn' type='submit'>Send Message</button>
+                    <button className='btn-contact' type='submit'>Send Message</button>
                     </div>
                 </form>
                 
