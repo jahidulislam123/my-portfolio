@@ -9,6 +9,9 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './PortfolioContainer/Footer/Footer';
 
+import Detail1 from './PortfolioContainer/ProjectsDetails/Detail1';
+import { Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
@@ -19,7 +22,10 @@ function App() {
      <Portfolio></Portfolio>
      <Contact></Contact>
      <Footer></Footer>
-     <ToastContainer />
+     {/* <Routes>
+           <Route path='/detail1' element={<Detail1></Detail1>}></Route>
+           </Routes>
+     <ToastContainer /> */}
     </div>
   );
 }
