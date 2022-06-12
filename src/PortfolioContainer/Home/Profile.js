@@ -78,7 +78,7 @@ const Profile = () => {
                        <Nav.Link  href="#contact"><span > Hire me</span></Nav.Link>
                       
                    </button>
-                   <a href="https://drive.google.com/file/d/1mT7PtF1QWlqTWqHwARkIa41HWp5Cy6Or/view?usp=sharing"><button className='btn btnn highlighted-btn'>Resume</button></a>
+                   <a href="https://drive.google.com/file/d/12MmYHyTgzEzg5wFmwqvnVz293zSl5uTo/view?usp=sharing"><button className='btn btnn highlighted-btn'>Resume</button></a>
                </div>
             </div>
             <div className='profile-picture'>
