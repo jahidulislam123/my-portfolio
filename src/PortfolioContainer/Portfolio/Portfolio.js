@@ -20,7 +20,7 @@ import {Link } from "react-router-dom";
 
 const Portfolio = () => {
     return (
-        <section className='portfolio_full' id='portfolio'>
+        <section className='portfolio_full' id='projects'>
             <h5>My recent work</h5>
             <h2>Some Projects</h2>
             <div className='container portfolio_container'>

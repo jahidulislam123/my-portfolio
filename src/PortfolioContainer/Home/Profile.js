@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Typical from 'react-typical'
 import './Profile.css'
+import {  Nav, } from 'react-bootstrap';
+
 
 
 
@@ -71,9 +73,10 @@ const Profile = () => {
                   </span>
                </div>
                <div className="profile-options">
-                   <button className='btnn button-one'>
+                   <button  className='btnn button-one'>
                        { " "}
-                       Hire me
+                       <Nav.Link  href="#contact"><span > Hire me</span></Nav.Link>
+                      
                    </button>
                    <a href="https://drive.google.com/file/d/1mT7PtF1QWlqTWqHwARkIa41HWp5Cy6Or/view?usp=sharing"><button className='btn btnn highlighted-btn'>Resume</button></a>
                </div>
