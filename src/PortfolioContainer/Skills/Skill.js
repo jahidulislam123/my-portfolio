@@ -48,6 +48,13 @@ const Skill = () => {
                     </span>
                     <span className='value'>60%</span>
                 </div>
+                <div className="skills">
+                    <span className='name'>MongoDB</span>
+                    <span className='percent'>
+                        <span style={{width:'90%'}} className='progress'></span>
+                    </span>
+                    <span className='value'>90%</span>
+                </div>
             </div>
         </div>
     );
