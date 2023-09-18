@@ -25,7 +25,7 @@ const NavBar = () => {
               <Nav.Link href="#projects">
                 <span className=" button-one1">Projects</span>
               </Nav.Link>
-              <Nav.Link href="#contact">
+              <Nav.Link href="#experiences">
                 <span className=" button-one1">Experiences</span>
               </Nav.Link>
               <Nav.Link href="#contact">

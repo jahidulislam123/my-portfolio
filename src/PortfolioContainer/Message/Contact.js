@@ -96,7 +96,7 @@ const Contact = () => {
             placeholder="Your Message "
             required
           ></textarea>
-          <div className="btn-message">
+          <div style={{ textAlign: "left" }} className="btn-message">
             <button className="btn-contact   glow-on-hover" type="submit">
               Send Message
             </button>

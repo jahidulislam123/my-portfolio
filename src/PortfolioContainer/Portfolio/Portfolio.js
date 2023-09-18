@@ -30,32 +30,21 @@ const Portfolio = () => {
           </div>
           <h3>Manufacturer-website [Full Stack] </h3>
           <a
-            style={{
-              textDecoration: "none",
-              marginRight: "3px",
-              marginLeft: "0px",
-            }}
-            className=" button-one1"
+            className=" button-one11"
             href=" https://github.com/jahidulislam123/manufacturer-website-client-site-assignment-12"
             target="_blank"
           >
             Client site
           </a>
           <a
-            style={{
-              textDecoration: "none",
-            }}
-            className=" button-one1"
+            className=" button-one11"
             href=" https://bicycle-parts-f992b.web.app/"
             target="_blank"
           >
             Live site
           </a>
           <a
-            style={{
-              textDecoration: "none",
-            }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://github.com/jahidulislam123/manufacturer-website-server-site-assignment-12"
             target="_blank"
           >
@@ -69,7 +58,7 @@ const Portfolio = () => {
                 marginTop: "5%",
               }}
               type="button"
-              class=" glow-on-hover "
+              class="highlighted-btnnn  "
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop1"
             >
@@ -155,10 +144,7 @@ const Portfolio = () => {
           </div>
           <h3>Car analyzing website [Full Stack]</h3>
           <a
-            style={{
-              textDecoration: "none",
-            }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://github.com/jahidulislam123/assignment-11-client-site-car"
             target="_blank"
             rel="noreferrer"
@@ -166,22 +152,14 @@ const Portfolio = () => {
             Client Site
           </a>
           <a
-            style={{
-              textDecoration: "none",
-            }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://lambent-narwhal-0dfeaf.netlify.app/"
             target="_blank"
           >
             Live site
           </a>
           <a
-            style={{
-              textDecoration: "none",
-              marginRight: "0px",
-              marginLeft: "0px",
-            }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://github.com/jahidulislam123/assignment-11-server-site"
             target="_blank"
           >
@@ -194,7 +172,7 @@ const Portfolio = () => {
                 marginTop: "10%",
               }}
               type="button"
-              class=" glow-on-hover "
+              class=" highlighted-btnnn "
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
@@ -274,7 +252,7 @@ const Portfolio = () => {
           <h3>Wild Photographer </h3>
           <a
             style={{ textDecoration: "none" }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://github.com/jahidulislam123/wild-photograper-assignment-10"
             target="_blank"
           >
@@ -282,7 +260,7 @@ const Portfolio = () => {
           </a>
           <a
             style={{ textDecoration: "none" }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://wild-photograper-services.web.app/"
             target="_blank"
           >
@@ -296,7 +274,7 @@ const Portfolio = () => {
                 marginTop: "20%",
               }}
               type="button"
-              class=" glow-on-hover "
+              class=" highlighted-btnnn "
               data-bs-toggle="modal"
               data-bs-target="#exampleModalw"
             >
@@ -375,7 +353,7 @@ const Portfolio = () => {
           <h3>This is a book selection Website [React]</h3>
           <a
             style={{ textDecoration: "none" }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://github.com/jahidulislam123/Lucky-one-assignment-8"
             target="_blank"
           >
@@ -383,7 +361,7 @@ const Portfolio = () => {
           </a>
           <a
             style={{ textDecoration: "none" }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://genuine-melomakarona-c34878.netlify.app/"
             target="_blank"
           >
@@ -397,7 +375,7 @@ const Portfolio = () => {
                 marginTop: "20%",
               }}
               type="button"
-              class=" glow-on-hover "
+              class=" highlighted-btnnn "
               data-bs-toggle="modal"
               data-bs-target="#exampleModall"
             >
@@ -459,10 +437,10 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img style={{ width: 370 }} src={image4} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>This is a portfolio item </h3>
           <a
             style={{ textDecoration: "none" }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://github.com/jahidulislam123"
             target="_blank"
           >
@@ -470,7 +448,7 @@ const Portfolio = () => {
           </a>
           <a
             style={{ textDecoration: "none" }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://spiffy-semifreddo-f293a1.netlify.app/home"
             target="_blank"
           >
@@ -481,10 +459,10 @@ const Portfolio = () => {
             <button
               style={{
                 width: "100%",
-                marginTop: "5%",
+                marginTop: "17%",
               }}
               type="button"
-              class=" glow-on-hover "
+              class=" highlighted-btnnn "
               data-bs-toggle="modal"
               data-bs-target="#exampleModalp"
             >
@@ -542,7 +520,7 @@ const Portfolio = () => {
           <h3>responsibe website</h3>
           <a
             style={{ textDecoration: "none" }}
-            className=" button-one1"
+            className=" button-one11"
             href="https://github.com/jahidulislam123/product-analysis-assignment-9"
             target="_blank"
           >
@@ -550,7 +528,7 @@ const Portfolio = () => {
           </a>
           <a
             style={{ textDecoration: "none" }}
-            className="button-one1"
+            className="button-one11"
             href=" https://jahidulislam123.github.io/influencer-gear/index.html"
             target="_blank"
           >
@@ -564,7 +542,7 @@ const Portfolio = () => {
                 marginTop: "20%",
               }}
               type="button"
-              class=" glow-on-hover "
+              class=" highlighted-btnnn "
               data-bs-toggle="modal"
               data-bs-target="#exampleModalz"
             >
