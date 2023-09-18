@@ -30,8 +30,8 @@
     position: relative;
     display: flex;
     margin: 20px 0;
-    padding: 24px 10px 18px;
-    background: linear-gradient(#616161 0%, #333, #222);
+    padding: 18px 10px 10px;
+    background: linear-gradient(#07c9f537 0%, #04688663, #05939a67);
     border-radius: 8px;
     overflow: hidden;
     /* border: 2px solid #000; */

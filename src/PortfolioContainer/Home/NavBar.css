@@ -18,7 +18,7 @@
 
 .head-line {
     box-shadow: 0 0 1px cyan, 0 0 20px cyan;
-    color: cyan;
+    color: whitesmoke;
     font-weight: 900;
     padding: 12px;
     /* padding-bottom: 17px; */
@@ -33,9 +33,9 @@
 
 .button-one1 {
     margin-right: 10px;
-    margin-left: 20px;
-    color: cyan;
-    border: 1px solid cyan;
+    /* margin-left: 20px; */
+    color: whitesmoke;
+    border: 1px solid rgba(5, 240, 248, 0.51);
     /* box-shadow: 0 0 5px cyan, 0 0 15px cyan; */
     border-radius: 12px;
     padding-right: 12px;

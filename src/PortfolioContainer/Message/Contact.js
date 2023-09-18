@@ -96,8 +96,8 @@ const Contact = () => {
             placeholder="Your Message "
             required
           ></textarea>
-          <div style={{ textAlign: "left" }} className="btn-message">
-            <button className="btn-contact   glow-on-hover" type="submit">
+          <div style={{ textAlign: "left" }} className="">
+            <button className=" glow-on-hover" type="submit">
               Send Message
             </button>
           </div>

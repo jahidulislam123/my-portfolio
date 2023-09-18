@@ -1,6 +1,7 @@
 .div1 {
     background: #24263B;
     color: whitesmoke;
+    margin-top: 44px;
     
 }
 
@@ -99,10 +100,6 @@ p {
 
 
 
-
-
-
-
 .horizontal-line {
     height: 3px;
     background: linear-gradient(rgb(5, 231, 247), yellow, rgb(0, 255, 247));
@@ -114,20 +111,26 @@ p {
    
 }
 
-
-
-
-
-
-
-
-
-
 .mamama{
     background-color: #6060612e;
     margin-left: 300px;
     border-radius: 12px;
     margin-right: 380px;
     padding: 12px;
-    border: 2px solid cyan;
+    border: 1px solid rgba(0, 255, 255, 0.387);
+}
+
+
+
+@media screen and (max-width: 1544px) {
+    .mamama {
+        background-color: #6060612e;
+        margin-left: 130px;
+        border-radius: 12px;
+        margin-right: 120px;
+        padding: 12px;
+        border: 1px solid rgba(0, 255, 255, 0.387);
+    }
+
+
 }

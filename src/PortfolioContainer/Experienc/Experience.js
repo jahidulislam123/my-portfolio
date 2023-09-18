@@ -28,7 +28,7 @@ const Experience = () => {
               <div class="experience-details">
                 <h2>SoftItcare</h2>
                 <p>Job Title: Full Stack Developer</p>
-                <p>Duration: March 2022 - Present</p>
+                <p>Duration: January 2023 </p>
                 <p>
                   Description: This is software development company located in
                   Bashundara Dhaka.
