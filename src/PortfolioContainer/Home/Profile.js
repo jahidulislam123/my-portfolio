@@ -57,7 +57,7 @@ const Profile = () => {
             <span className="primary-text">
               {" "}
               Hello , I'M{" "}
-              <span className="highlighted-text">Jahidul islam</span>
+              <span className="highlighted-text">Jahidul Islam</span>
             </span>
           </div>
           <div className="profile-details-role">

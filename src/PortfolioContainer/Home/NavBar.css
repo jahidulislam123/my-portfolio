@@ -1,26 +1,52 @@
 .text-edit {
-    color: rgb(228, 216, 212);
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     margin-left: 24px;
-    border: 1px solid rgb(11, 216, 103);
+    /* border: 1px solid rgb(11, 216, 103); */
     padding: 8px;
     border-radius: 15px;
-
 
 }
 
 .text-edit:hover {
     color: rgb(8, 0, 7);
-    background-color: cornsilk;
+    background-color: white;
 
 
 }
 
 .head-line {
-    color: rgb(18, 204, 18);
+    box-shadow: 0 0 1px cyan, 0 0 20px cyan;
+    color: cyan;
     font-weight: 900;
+    padding: 12px;
+    /* padding-bottom: 17px; */
+    border-radius: 12px;
+    /* padding-bottom: 4px; */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom: 2px solid cornsilk;
-    border-top: 2px solid cornsilk;
+    /* border-bottom: 2px solid cornsilk; */
+    /* border-top: 2px solid cornsilk; */
+}
+
+
+
+.button-one1 {
+    margin-right: 10px;
+    margin-left: 20px;
+    color: cyan;
+    border: 1px solid cyan;
+    /* box-shadow: 0 0 5px cyan, 0 0 15px cyan; */
+    border-radius: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+
+.button-one1:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan, 0 0 200px cyan;
 }

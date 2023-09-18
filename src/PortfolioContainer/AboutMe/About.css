@@ -15,7 +15,9 @@
 }
 
 .about-heading {
-    color: orangered
+    color: cyan;
+    font-weight: 700;
+
 }
 
 .about_me {

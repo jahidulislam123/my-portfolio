@@ -14,22 +14,25 @@ const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#">
-                <span className="text-edit ">Home</span>
+                <span className=" button-one1">Home</span>
               </Nav.Link>
               <Nav.Link href="#about">
-                <span className="text-edit ">About Me</span>
+                <span className=" button-one1">About Me</span>
               </Nav.Link>
               <Nav.Link href="#skills">
-                <span className="text-edit">Skills</span>
+                <span className=" button-one1">Skills</span>
               </Nav.Link>
               <Nav.Link href="#projects">
-                <span className="text-edit">Projects</span>
+                <span className=" button-one1">Projects</span>
               </Nav.Link>
               <Nav.Link href="#contact">
-                <span className="text-edit">Contack</span>
+                <span className=" button-one1">Experiences</span>
+              </Nav.Link>
+              <Nav.Link href="#contact">
+                <span className=" button-one1">Contack</span>
               </Nav.Link>
               <Nav.Link href="#link">
-                <span className="text-edit">Blogs</span>
+                <span className=" button-one1">Blogs</span>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

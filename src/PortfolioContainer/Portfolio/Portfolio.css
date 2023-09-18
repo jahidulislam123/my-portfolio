@@ -6,6 +6,8 @@
 
 }
 
+
+
 .portfolio_full {
     background-color: #24263B;
     color: white;
@@ -14,12 +16,14 @@
 .portfolio_item {
     padding: 1.3rem;
     border-radius: 2rem;
-    border: 1px solid rgb(30, 110, 6);
     transition: var(--transition);
-    background-color: rgba(2, 1, 15, 0.808);
+    background-color: rgba(17, 18, 26, 0);
     margin: 4px;
     width: 80%;
-
+    backdrop-filter: blur(10px);
+    /* Adjust the blur radius as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Adjust the shadow as needed */
 }
 
 .portfolio_item:hover {
@@ -32,14 +36,12 @@
     overflow: hidden;
 }
 
-/* .portfolio_item h3 {
-    margin: 1.2rem 0 2rem;
-} */
+
 .highlighted-btnnn {
     text-decoration: none;
     color: white;
     font-weight: 500;
-    border: 1px solid green;
+    border: 1px solid cyan;
     border-radius: 12px;
     padding: 7px;
 
